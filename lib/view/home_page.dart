@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:job_find_app/view/widgets/home_page_buttons.dart';
+import 'package:job_find_app/view/widgets/home_page_comapny.dart';
 import 'package:job_find_app/view/widgets/home_page_search_box.dart';
 import 'package:job_find_app/view/widgets/home_page_top.dart';
 
@@ -54,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(height: 30),
 
                     HomePageButtons(),
-
+                    HomePageCompany()
 
                   ],
                 ),

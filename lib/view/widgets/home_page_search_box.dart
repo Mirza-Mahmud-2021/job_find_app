@@ -15,8 +15,8 @@ class _HomePageSearchBoxState extends State<HomePageSearchBox> {
 
       child: Container(
 
-        margin: EdgeInsets.only(top: 40),
-        height: 300,
+        margin: EdgeInsets.only(top: 20),
+        height: 250,
         width: MediaQuery.of(context).size.width,
 
         decoration: BoxDecoration(
@@ -106,6 +106,7 @@ class _HomePageSearchBoxState extends State<HomePageSearchBox> {
                         )
                     )
                 ),
+
               ],
             ),
         ),
