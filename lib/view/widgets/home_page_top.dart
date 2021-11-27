@@ -64,7 +64,7 @@ class _HomePageTopState extends State<HomePageTop> {
                       Icon(
 
                         Icons.notifications_none_outlined,
-                        color: Colors.grey,
+                        color: Colors.black.withOpacity(0.8),
                         size: 30,
                       ),
                       Positioned(
